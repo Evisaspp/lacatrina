@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/*
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  min-width: 410px;
+}
+*/
+
+.multimedia{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    min-width: 410px;
+}
+
+.move-icon {
+  cursor: pointer;
+  z-index: 2;
+  top: 50%;
+  font-size: 1.2rem;
+  position: absolute;
+  color: #a40e4c;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 1.8em;
+  height: 1.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: #f5d6ba;
+}
+
+
+.move-prev {
+  left: 2%;
+}
+
+.move-back {
+  right: 2%;
+}
+
+.card-group {
+  display: flex;
+  position: absolute;
+  left: 45px;
+  top: 20px;
+  transition: all 0.5s easeout;
+}
+
+.card {
+  width: 220px;
+  height: 360px;
+  border-radius: 30px;
+  padding: 0;
+  margin: auto 1em;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+
+  button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.5em;
+    width: 50%;
+    margin: 2em 1em;
+    float: right;
+    font-family: "Quicksand", sans-serif;
+    cursor: pointer;
+    outline: none;
+  }
+
+
+  .card i {
+    position: absolute;
+    top: -29px; 
+    right: -23px; 
+    font-size: 40px; 
+    color: #f24998c8; 
+  
+  }
+.card .h1Card {
+    color: aliceblue;
+  padding: 1em;
+  margin: 0;
+  font-size: 25px;
+  font-style:inherit;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.card1 {
+  background-image: url(https://pics.filmaffinity.com/Coco-155051069-large.jpg);
+}
+
+.card2 {
+  background-image: url(https://notagamer.net/wp-content/uploads/2023/09/1-la-illusion.jpg);
+}
+
+.card3 {
+  background-image: url(https://i.pinimg.com/1200x/67/4f/43/674f43f278b186f95fec3395890c0373.jpg);
+}
+
+.card4 {
+  background-image: url(https://static.wikia.nocookie.net/nintendo/images/a/a2/SMO_Tostarenans.jpg/revision/latest?cb=20180604100829&path-prefix=en);
+}
+
+.card5 {
+  background-image: url(https://es.web.img2.acsta.net/pictures/15/01/26/13/38/226702.jpg);
+}
+
+.card6 {
+  background-image: url(https://editors.dexerto.com/wp-content/uploads/articles/bangalore-fight-or-fright.jpg);
+}
+
+.card7 {
+  background-image: url(https://editors.dexerto.com/wp-content/uploads/articles/bangalore-fight-or-fright.jpg);
+}

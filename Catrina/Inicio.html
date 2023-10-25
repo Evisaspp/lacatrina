@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catrina</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+    <link rel="stylesheet" href="css/cssPrincipal.css">
+    <link rel="stylesheet" href="css/styleDC.css">
+    <link rel="stylesheet" href="css/MEDIAQUERY.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@800&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- boton nav -->
+    <section id="btnNav" >
+        <a href="#nav"><i class="fa fa-bars fa-2x colorBtn" style="color: aliceblue;"></i></a>
+    </section>
+    <nav id="nav" class="nav">
+        <a href="#close-nav" class="close"><i class="fa fa-close fa-2x" style="color: black;"></i></a>
+        <ul>
+          <li>Gracias por mirar :)</li>
+          <li><a href="#Origen"><i class="fa fa-external-link"></i>Origen</a></li>
+          <li><a href="#Evolucion"><i class="fa fa-external-link"></i>Evolución</a></li>
+          <li><a href="#Datos"><i class="fa fa-external-link"></i>Datos curiosos</a></li>
+          <li><a href="#Multimedia"><i class="fa fa-external-link"></i>Catrina en la Multimedia</a></li>
+
+        </ul>
+    </nav>
+
+    <header class="parallax">
+        <h4 class="TituloPrin deslice" style="color:rgb(18, 43, 155);">&#9660</h4>
+        <div class="TituloPrin deslice">
+            <h4 style="color:rgb(18, 43, 155);">Deslice</h4>
+        </div>
+        <div class="TituloPrin">
+            <h4>DIA DE MUERTOS</h4>
+            <h1>La Catrina</h1>
+        </div>
+    </header>
+    <div class="flores"> </div>
+    <main>
+
+       
+
+        <section class="cuadro-unico" id="Origen">
+            <div class="espacio">
+                <h3>Origen</h3>
+                <p class="OrigenP">Muchas personas le atribuyen el origen de la Catrina a La leyenda azteca de Mictecacihuatl, sin embargo, la historia más actual no menciona a esta deidad.<br>
+
+                    La Catrina es un personaje creado por el pintor, ilustrador y caricaturista mexicano, José Guadalupe Posada. La llamó  “La Calavera Garbancera” porque era, en realidad, una burla hacia las personas que vendían garbanzos en el país. Tenía la función de satirizar a las mujeres que alcanzaban otro nivel socioeconómico y, que por ello, renegaban de sus orígenes para dar seguimiento a las modas europeas.</p>
+            </div>
+        </section>
+
+        <h2 class="center subtitu" id="Evolucion">Evolución</h2>
+
+        <section id="unoEnuno">
+            <section class="cuadro-desliz" onclick="mostrarcalaca()">
+                <div class="espacio fondos calaca dobleCua" >
+                    <h3>La Calavera Garbancera</h3>
+                    <h3 class="der" id="cambiocala">&#9660</h3>
+                    <h3 class="der" id="cambiocala2" style="display: none;">&#9650</h3>
+                </div>
+                <div class="informacion" id="infocalaca" style="display: none;">
+                    <p class=" primero">En 1912, José Guadalupe Posada creó a “La Calavera Garbancera”, como una sátira
+                        social hacía aquellas personas que vendían garbanzos en México y pretendían dejar sus orígenes atrás y pretender ser europeos.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pretium diam. Cras id laoreet mi. Praesent ut 
+                            nunc ut sem consectetur venenatis. Duis varius aliquam diam. Aliquam ullamcorper rhoncus risus, scelerisque rhoncus elit interdum sed. Etiam lacinia interdum placerat.</p> -->
+                </div>
+            </section>
+    
+            <section class="cuadro-desliz" onclick="mostrarmural()">
+                <div class="espacio fondos muralito dobleCua" >
+                    <h3>Mural Diego Rivera</h3>
+                    <h3 class="der" id="cambioMural">&#9660</h3>
+                    <h3 class="der" id="cambioMural2" style="display: none;">&#9650</h3>
+                </div>
+                <div class="informacion" id="infoMural" style="display: none;">
+                    <p class=" primero">El reconocido muralista Diego Rivera transforma a 'La Calavera Garbancera', vistiéndola con elegancia, y la inmortaliza
+                        como 'La Catrina' en su obra 'Sueño de una tarde dominical en la Alameda Central', sin anticipar que se convertiría en un símbolo del
+                        Día de Muertos en la cultura mexicana.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pretium diam. Cras id laoreet mi. Praesent ut 
+                            nunc ut sem consectetur venenatis. Duis varius aliquam diam. Aliquam ullamcorper rhoncus risus, scelerisque rhoncus elit interdum sed. Etiam lacinia interdum placerat.</p> -->
+                </div>
+            </section>
+    
+            <section class="cuadro-desliz" onclick="mostrarActualidad()">
+                <div class="espacio fondos actualidad" >
+                    <h3>Actualidad</h3>
+                    <h3 class="der" id="cambioActua">&#9660</h3>
+                    <h3 class="der" id="cambioActua2" style="display: none;">&#9650</h3>
+                </div>
+                <div class="informacion" id="infoActua" style="display: none;">
+                    <p class=" primero">La Catrina, nacida hace más de cien años, es un símbolo importante de la cultura mexicana. Principalmente la vemos durante
+                        las celebraciones del Día de Muertos, cuando nos maquillamos y disfrazamos como Catrinas, honrando a nuestros antepasados y su legado.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pretium diam. Cras id laoreet mi. Praesent ut 
+                            nunc ut sem consectetur venenatis. Duis varius aliquam diam. Aliquam ullamcorper rhoncus risus, scelerisque rhoncus elit interdum sed. Etiam lacinia interdum placerat.</p> -->
+                </div>
+            </section>
+        </section>
+
+        <section id="dosYUno">
+            <section id="FlexEvolu">
+                <section class="cuadro-desliz" onclick="mostrarcalaca2()">
+                    <div class="espacio fondos calaca dobleCua" >
+                        <h3>La Calavera Garbancera</h3>
+                        <h3 class="der" id="cambiocala2">&#9660</h3>
+                        <h3 class="der" id="cambiocala22" style="display: none;">&#9650</h3>
+                    </div>
+                </section>
+        
+                <section class="cuadro-desliz" onclick="mostrarmural2()">
+                    <div class="espacio fondos muralito dobleCua" >
+                        <h3>Mural Diego Rivera</h3>
+                        <h3 class="der" id="cambioMural">&#9660</h3>
+                        <h3 class="der" id="cambioMural22" style="display: none;">&#9650</h3>
+                    </div>
+                </section>
+
+                <div class="informacion dobleCua" id="infocalaca2" style="display: none;">
+                    <p class=" primero">En 1912, José Guadalupe Posada creó a “La Calavera Garbancera”, como una sátira
+                        social hacía aquellas personas que vendían garbanzos en México y pretendían dejar sus orígenes atrás y pretender ser europeos.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pretium diam. Cras id laoreet mi. Praesent ut 
+                            nunc ut sem consectetur venenatis. Duis varius aliquam diam. Aliquam ullamcorper rhoncus risus, scelerisque rhoncus elit interdum sed. Etiam lacinia interdum placerat.</p> -->
+                </div>
+
+                <div class="informacion dobleCua" id="infoMural2" style="display: none;">
+                    <p class=" primero">El reconocido muralista Diego Rivera transforma a 'La Calavera Garbancera', vistiéndola con elegancia, y la inmortaliza
+                        como 'La Catrina' en su obra 'Sueño de una tarde dominical en la Alameda Central', sin anticipar que se convertiría en un símbolo del
+                        Día de Muertos en la cultura mexicana.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pretium diam. Cras id laoreet mi. Praesent ut 
+                            nunc ut sem consectetur venenatis. Duis varius aliquam diam. Aliquam ullamcorper rhoncus risus, scelerisque rhoncus elit interdum sed. Etiam lacinia interdum placerat.</p> -->
+                </div>
+            </section>
+
+            <section class="cuadro-desliz" onclick="mostrarActualidad2()">
+                <div class="espacio fondos actualidad" >
+                    <h3>Actualidad</h3>
+                    <h3 class="der" id="cambioActua2">&#9660</h3>
+                    <h3 class="der" id="cambioActua22" style="display: none;">&#9650</h3>
+                </div>
+                <div class="informacion" id="infoActua2" style="display: none;">
+                    <p class=" primero">La Catrina, nacida hace más de cien años, es un símbolo importante de la cultura mexicana. Principalmente la vemos durante
+                        las celebraciones del Día de Muertos, cuando nos maquillamos y disfrazamos como Catrinas, honrando a nuestros antepasados y su legado.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pretium diam. Cras id laoreet mi. Praesent ut 
+                            nunc ut sem consectetur venenatis. Duis varius aliquam diam. Aliquam ullamcorper rhoncus risus, scelerisque rhoncus elit interdum sed. Etiam lacinia interdum placerat.</p> -->
+                </div>
+            </section>
+        </section>
+
+        <h2 class="center subtitu" id="Datos">Datos curiosos</h2>
+
+        <section class="carruselDatos">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img class="img" src="https://i0.wp.com/www.sinembargo.mx/wp-content/uploads/2015/11/catrinas-DF-.jpg?fit=1100%2C580&quality=80&strip=all&ssl=1">
+                    <h2>La mayor cantidad de catrinas y catrines juntos.</h2>
+                    <p>Fue la reunión más grande donde se reunieron 509 participantes
+                        en la 1era edición de La Catrina Fest en Cuahutemoc el 1 de Noviembre del 2014.
+                    </p>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img class="img" src="https://www.elfinanciero.com.mx/resizer/1nucLD_FtFSgr6T5i7BVu3AYeSA=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/UMWDGINKUZGGLHR5G5IXZN7QRM.jpg">
+                    <h2>La catrina más alta del mundo.</h2>
+                    <p>En el 2015, en la ciudad de Jalisco se realizó la catrina más alta del mundo, la cual
+                        media 18.77 metros de altura.
+                    </p>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img class="img" src="https://www.mexicoescultura.com/galerias/espacios/principal/thumbnail_museo_de_la_katrina_1_1.jpg">
+                    <h2>Museo de la Katrina.</h2>
+                    <p>En Saltillo, Coahuila, existe un museo dedicado a la catrina,
+                        el cual se llama "Museo de la Katrina", en la cual se exponen figuras hechas de papel maché. </del>
+                    </p>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <script src="js/datosC.js"></script>
+        </section>
+
+        <h2 class="center subtitu" id="Multimedia">La catrina en la multimedia</h2>
+        
+        <section class="multimedia">
+            <div class="carousel-container">
+                <div class="move-icon move-prev">&#10094;</div>
+                <div class="move-icon move-back">&#10095;</div>
+                <div class="card-group">
+                    <div class="card card1">
+                        <i class="fas fa-film"></i>
+                        <h1 class="h1Card">Coco</h1>
+                    </div>
+                    <div class="card card2">
+                        <i class="fas fa-gamepad"></i>
+                        <h1 class="h1Card">League of Legends</h1>
+                    </div>
+                    <div class="card card3">
+                        <i class="fas fa-gamepad"></i>
+                        <h1 class="h1Card">Shadow of the Tomb Rider</h1>
+                    </div>
+                    <div class="card card4">
+                        <i class="fas fa-gamepad"></i>
+                        <h1 class="h1Card">Super Mario Odyssey</h1>
+                    </div>
+                    <div class="card card5">
+                        <i class="fas fa-film"></i>
+                        <h1 class="h1Card">El Libro de la Vida</h1>
+                    </div>
+                    <div class="card card6">
+                        <i class="fas fa-gamepad"></i>
+                        <h1 class="h1Card">Apex Legends</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        window.addEventListener("load", function () {
+         const cardContainer = document.querySelector(".card-group");
+         const cards = document.querySelectorAll(".card");
+         const prevButton = document.querySelector(".move-prev");
+         const nextButton = document.querySelector(".move-back");
+         const cardWidth = cards[0].offsetWidth;
+         let currentCard = 0;
+ 
+         nextButton.addEventListener("click", function () {
+             currentCard = (currentCard + 1) % cards.length;
+             updateCarousel();
+         });
+ 
+         prevButton.addEventListener("click", function () {
+             currentCard = (currentCard - 1 + cards.length) % cards.length;
+             updateCarousel();
+         });
+ 
+         function updateCarousel() {
+             const offsetX = -currentCard * cardWidth;
+             cardContainer.style.transform = `translateX(${offsetX}px)`;
+         }
+ 
+         updateCarousel();
+     });
+     </script>
+    <script src="js/javaNav.js"></script>
+    <script src="js/jsBtn.js"></script>
+</body>
+</html>
